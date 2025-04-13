@@ -1,29 +1,29 @@
-# Random password generator
+# Rastgele Şifre Üretici
 
-This app is designed to generate random passwords with a specified number of characters. Passwords can contain upper and lower case letters, numbers, and special characters.
+Bu uygulama, belirlenen karakter sayısına göre rastgele şifreler üretmek için tasarlanmıştır. Şifreler büyük ve küçük harfler, sayılar ve özel karakterler içerebilir.
 
-## Features
+## Özellikler
 
-- Generation of random passwords of specified length.
-- The app uses letters, numbers and special characters to generate its passwords.
-- A simple and straightforward console app.
+- Belirtilen uzunlukta rastgele şifre üretimi
+- Şifre oluştururken harfler, sayılar ve özel karakterler kullanılır
+- Basit ve anlaşılır bir konsol uygulamasıdır
 
-## Beginning the work
+## Programı Çalıştırma
 
-You will need Python version 3.6 or higher to use this app
+Programı çalıştırmak için bilgisayarınızda Python 3.6 veya daha üst bir sürümün kurulu olduğundan emin olun.
 
-## Running the tests
+## Testleri Çalıştırma
 
-The tests written here make use of the pytest library. To install it, type:
+Burada yazılmış testler pytest kütüphanesini kullanır. Yüklemek için şu komutu yazın:
 ```bash
 pip install pytest
 ```
 
-You can then run the tests from the root directory of the project with the following command:
+Daha sonra testleri proje dizininin kök klasöründen şu komutla çalıştırabilirsiniz:
 ```bash
 pytest
 ```
 
-## Author
+## ✍️ Yazar
 
 Kodland
