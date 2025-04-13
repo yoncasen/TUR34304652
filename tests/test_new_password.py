@@ -2,16 +2,16 @@ import string
 from password.new_password import generate_password
 
 def test_password_characters():
-    """Testing that only valid characters are used during generation"""
+    """Şifre oluşturulurken yalnızca geçerli karakterlerin kullanıldığını test eder"""
     valid_characters = string.ascii_letters + string.digits + string.punctuation
-    password = generate_password(100)  # Generating a long password for more secure verification
+    password = generate_password(100)  # Daha güvenli bir doğrulama için uzun bir şifre oluşturuluyor
     for char in password:
         assert char in valid_characters
 
 """
-Write another test from the suggested ones below. Alternatively, you can come up with a test of your own!
-If you can write more tests, that would be really awesome!
+Aşağıda önerilenlerden birini kullanarak başka bir test yazın. Alternatif olarak, kendi testinizi de oluşturabilirsiniz!
+Daha fazla test yazabilirseniz harika olur!
 
-1. Test that the password length matches the specified length
-2. Test that two consecutively generated passwords are different
+1. Şifrenin uzunluğunun belirtilen uzunlukla eşleşip eşleşmediğini test edin  
+2. Arka arkaya oluşturulan iki şifrenin farklı olup olmadığını test edin 
 """
