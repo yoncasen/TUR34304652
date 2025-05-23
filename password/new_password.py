@@ -10,5 +10,5 @@ def generate_password(length=12):
     return password
 
 # Kullanım örneği
-password_length = 12  # İstediğiniz herhangi bir şifre uzunluğunu seçebilirsiniz
+password_length = 100  # İstediğiniz herhangi bir şifre uzunluğunu seçebilirsiniz
 print("Yeni şifreniz:", generate_password(password_length))
