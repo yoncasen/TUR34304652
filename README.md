@@ -28,4 +28,4 @@ pytest
 
 ## ✍️ Yazar
 
-Kodland - Yonca
+Kodland - Yonca ve Ömer
